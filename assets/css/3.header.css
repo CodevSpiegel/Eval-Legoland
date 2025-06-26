@@ -1,0 +1,52 @@
+/* ======================= */
+/* ======= HEADER ======== */
+/* ======================= */
+header {
+    background-image: url("../images/bg-header.webp");
+    border-radius: 8px 8px 0px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+}
+
+/* Un leger radius discret en plus pour le Logo */
+.logo img {
+    border-radius: 4px;
+}
+
+.effet-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.effet-logo .bidule {
+    width: 58px;
+    height: 12px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: var(--black, #000000);
+}
+
+nav .menus ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+nav .menus a {
+    color: var(--white, #FFFFFF);
+    font-family: var(--extra-font, "PoetsenOne");
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav .account {
+    display: flex;
+    gap: 32px;
+}
