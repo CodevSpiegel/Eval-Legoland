@@ -59,6 +59,7 @@
     background-color: var(--black);
 }
 
+/* Parce que j'ai manqué un peu de temps... */
 .extra {
     color: var(--black);
     background-color: var(--yellow);
@@ -84,4 +85,26 @@
     }
 
     /* Avantages */
+
+    .main-avantages {
+        padding: 24px 16px;
+    }
+
+    .row-avantages {
+        flex-direction: column;
+    }
+
+    .saving-content {
+        width: 395px;
+        height: 180px;
+        padding: 32px 16px;
+    }
+
+    .saving-img {
+        width: 395px;
+    }
+
+    .saving-img img {
+        width: 395px;
+    }
 }
