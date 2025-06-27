@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+    color: var(--red, #E9000B);
     font-family: var(--extra-font, "PoetsenOne");
     font-size: 3rem; /* 48px */
     font-style: normal;
@@ -59,6 +60,11 @@ button {
     color: var(--white, #FFFFFF);
     background-color: var(--black, #000000);
 }
+.button-primary:hover {
+    color: var(--yellow, #FFEF16);
+    background-color: var(--black, #000000);
+    border: 2px solid var(--yellow, #FFEF16);
+}
 
 .button-secondary {
     color: var(--black, #000000);
@@ -71,4 +77,15 @@ button {
     font-style: italic;
     font-weight: 300;
     line-height: normal;
+}
+
+/* ======================= */
+/* === MEDIA QUERIES ===== */
+/* ======================= */
+@media (max-width: 1550px) {
+
+    /* Global */
+    .wrapper { 
+        width: var(--wrapper-mobile, 395px); 
+    }
 }

@@ -1,3 +1,99 @@
 /* ======================= */
 /* ====== MAIN HERO ====== */
 /* ======================= */
+.main-hero {
+    padding: 32px 0px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 5px solid var(--black);
+    border-bottom: 5px solid var(--black);
+}
+
+
+.hero-left #taj-mahal {
+    width: 454px;
+    height: 365px;
+}
+
+.hero-left #lego-builder {
+    width: 265px;
+    height: 355px;
+    margin-left: -30px;
+}
+
+.hero-right {
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.hero-right h1 {
+    width: 501px;
+}
+
+.lego-bar-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lego-bar-bottom {
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(180deg);
+}
+
+
+/* ======================= */
+/* === MEDIA QUERIES ===== */
+/* ======================= */
+@media (max-width: 1550px) {
+
+    .main-hero {
+        padding: 16px 0px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .hero-left {
+        display: flex;
+        align-items: center;
+    }
+    .hero-left #taj-mahal {
+        width: 285px;
+        height: 205px;
+    }
+
+    .hero-left #lego-builder {
+        width: 116px;
+        height: 155px;
+    }
+
+    .hero-right {
+        gap: 16px;
+    }
+
+    .hero-right {
+        width: 361px;
+    }
+
+    .hero-right h1 {
+        width: 361px;
+    }
+
+    .toNone {
+        display: none;
+    }
+
+}
+

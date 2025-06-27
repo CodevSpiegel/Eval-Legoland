@@ -1,3 +1,87 @@
 /* ======================= */
 /* ==== MAIN SECTIONS ==== */
 /* ======================= */
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+
+/* Fonctionnement */
+.main-fonctionnement {
+    background-color: var(--yellow);
+    padding: 32px 16px;
+}
+
+
+.fonctionnement-cards {
+    display: flex;
+    gap: 96px;
+}
+
+.fonctionnement-card {
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+}
+
+/* Avantages */
+.main-avantages {
+    padding: 32px 16px;
+}
+
+.avantages {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-avantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saving-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    color: var(--white);
+    text-align: left;
+    width: 720px;
+    padding: 0 48px;
+    background-color: var(--black);
+}
+
+.extra {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.saving-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+
+/* ======================= */
+/* === MEDIA QUERIES ===== */
+/* ======================= */
+@media (max-width: 1550px) {
+
+    /* Fonctionnement */
+    .fonctionnement-cards {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /* Avantages */
+}

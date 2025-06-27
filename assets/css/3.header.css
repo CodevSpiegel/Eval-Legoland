@@ -36,6 +36,10 @@ nav .menus ul {
     list-style-type: none;
 }
 
+nav .menus ul svg {
+  display: none;
+}
+
 nav .menus a {
     color: var(--white, #FFFFFF);
     font-family: var(--extra-font, "PoetsenOne");
@@ -45,8 +49,42 @@ nav .menus a {
     line-height: normal;
     text-decoration: none;
 }
+nav .menus a:hover {
+    color: var(--yellow, #FFEF16);
+}
 
 nav .account {
     display: flex;
     gap: 32px;
+}
+
+/* ======================= */
+/* === MEDIA QUERIES ===== */
+/* ======================= */
+@media (max-width: 1550px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 24px;
+    }
+
+    nav .menus ul {
+        justify-content: end;
+        padding: 1rem;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    nav .menus ul li {
+        display: none;
+    }
+    nav .account {
+        display: none;
+    }
+
+    nav .menus ul svg {
+        display: flex;
+    }
 }
