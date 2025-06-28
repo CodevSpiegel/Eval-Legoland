@@ -36,10 +36,9 @@ html,
     --black: #000000;
     --red: #E9000B;
     --white: #FFFFFF;
-    --bg-color: #000000;
+    --bg-color: #303030;
 
     /* wrapper */
     --wrapper-desktop: 1440px;
     --wrapper-mobile: 395px;
-    --max-wrapper-mobile: 1550px;
 }
