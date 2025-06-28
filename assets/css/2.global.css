@@ -6,6 +6,10 @@
      width: var(--wrapper-desktop, 1441px);
 }
 
+.showMobile {
+    display: none;
+}
+
 body {
     font-family: var(--base-font, "Nunito");
     font-size: 1rem; /* 16px */
@@ -71,14 +75,6 @@ button {
     background-color: var(--white, #FFFFFF);
 }
 
-.quote {
-    font-family: var(--base-font, "Nunito");
-    font-size: 1rem; /* 16px */
-    font-style: italic;
-    font-weight: 300;
-    line-height: normal;
-}
-
 /* ======================= */
 /* === MEDIA QUERIES ===== */
 /* ======================= */
@@ -87,5 +83,13 @@ button {
     /* Global */
     .wrapper { 
         width: var(--wrapper-mobile, 395px); 
+    }
+ 
+    .showDesktop {
+        display: none;
+    }
+
+    .showMobile {
+        display: flex;
     }
 }

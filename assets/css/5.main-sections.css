@@ -11,10 +11,13 @@
 }
 
 
-/* Fonctionnement */
-.main-fonctionnement {
-    background-color: var(--yellow);
-    padding: 32px 16px;
+/* ==================================== */
+/* ====== SECTION FONCTIONNEMENT ====== */
+/* ==================================== */
+.fonctionnement {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--yellow, #FFEF16);
 }
 
 
@@ -32,44 +35,135 @@
     text-align: center;
 }
 
-/* Avantages */
-.main-avantages {
-    padding: 32px 16px;
-}
 
+/* ==================================== */
+/* ======== SECTION AVANTAGES ========= */
+/* ==================================== */
 .avantages {
-    display: flex;
-    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--white, #FFFFFF);
 }
 
-.row-avantages {
-    display: flex;
-    justify-content: space-between;
+.grid-avantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.saving-content {
+.items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-    color: var(--white);
     text-align: left;
     width: 720px;
+}
+
+.item-1,
+.item-4,
+.item-5 {
     padding: 0 48px;
-    background-color: var(--black);
+    color: var(--white, #FFFFFF);
+    background-color: var(--black, #000000);
 }
 
-/* Parce que j'ai manqué un peu de temps... */
-.extra {
-    color: var(--black);
-    background-color: var(--yellow);
+.item-2 img,
+.item-6 img {
+    width: 720px;
 }
 
-.saving-img {
+.item-3 {
+    align-items: center;
+}
+.item-3 img {
     width: 50%;
+}
+
+.item-4 {
+    color: var(--black, #000000);
+    background-color: var(--yellow, #FFEF16);
+}
+
+/* Couleurs des liens */
+.item-1 a,
+.item-5 a {
+    color: var(--white, #FFFFFF);
+}
+.item-1 a:hover,
+.item-5 a:hover {
+    color: var(--yellow, #FFEF16);
+}
+.item-4 a {
+    color: var(--black, #000000);
+}
+.item-4 a:hover {
+    color: var(--red, #E9000B);
+}
+
+/* ==================================== */
+/* ======= SECTION TEMOIGNAGES ======== */
+/* ==================================== */
+.testimonials {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    background-color: var(--white, #FFFFFF);
+}
+
+.testimonials-cards {
     display: flex;
-    justify-content: center;
-    background-color: var(--white);
+    gap: 75px;
+}
+
+.testimonials-card {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border: 3px solid var(--black, #000000);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.top-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.name-photo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.lego-profil {
+    position: relative;
+}
+
+.lego-profil svg {
+    position: relative;
+    z-index: 2;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    z-index: 1;
+    transform: translateY(28%);
+    overflow: hidden;
+}
+
+blockquote {
+    font-family: var(--base-font, "Nunito");
+    font-size: 1rem; /* 16px */
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
 }
 
 
@@ -78,33 +172,46 @@
 /* ======================= */
 @media (max-width: 1550px) {
 
-    /* Fonctionnement */
+    /* ====== SECTION FONCTIONNEMENT ====== */
     .fonctionnement-cards {
         flex-direction: column;
         gap: 32px;
     }
 
-    /* Avantages */
-
-    .main-avantages {
+    /* ======== SECTION AVANTAGES ========= */
+    .avantages {
         padding: 24px 16px;
     }
 
-    .row-avantages {
-        flex-direction: column;
+    .avantages .section-content {
+        padding-top: 16px;
     }
 
-    .saving-content {
-        width: 395px;
-        height: 180px;
-        padding: 32px 16px;
+    .grid-avantages {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .saving-img {
-        width: 395px;
+    .item-4 {
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
 
-    .saving-img img {
-        width: 395px;
+    .items {
+        width: 393px;
     }
+
+    .item-1,
+    .item-4,
+    .item-5 {
+        padding: 24px 16px;
+    }
+
+    .item-2 img,
+    .item-3 img,
+    .item-6 img {
+        width: 393px;
+    }
+
+    /* ======= SECTION TEMOIGNAGES ======== */
+
 }
