@@ -11,11 +11,6 @@ html,
 }
 
 @font-face {
-    font-family: "Gagalin";
-    src: url("../fonts/Gagalin-Regular.otf");
-}
-
-@font-face {
     font-family: "PoetsenOne";
     src: url("../fonts/PoetsenOne-Regular.ttf");
 }
@@ -27,7 +22,6 @@ html,
 
 :root {
     /* Fonts */
-    --logo-font: "Gagalin";
     --extra-font: "PoetsenOne";
     --base-font: "Nunito";
 
