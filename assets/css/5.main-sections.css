@@ -195,6 +195,10 @@ blockquote {
 /* ======================= */
 @media (max-width: 1550px) {
 
+    .fonctionnement {
+        padding: 24px 16px;
+    }
+
     /* ====== SECTION FONCTIONNEMENT ====== */
     .fonctionnement-cards {
         flex-direction: column;
@@ -214,6 +218,7 @@ blockquote {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* Ca c'est le plus important ! */
     .item-4 {
         grid-row-start: 3;
         grid-row-end: 4;
