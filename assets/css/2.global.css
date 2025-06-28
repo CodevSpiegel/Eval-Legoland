@@ -66,13 +66,17 @@ button {
 }
 .button-primary:hover {
     color: var(--yellow, #FFEF16);
-    background-color: var(--black, #000000);
     border: 2px solid var(--yellow, #FFEF16);
 }
 
 .button-secondary {
     color: var(--black, #000000);
     background-color: var(--white, #FFFFFF);
+}
+
+.button-secondary:hover {
+    color: var(--red, #E9000B);
+    border: 2px solid var(--red, #E9000B);
 }
 
 /* ======================= */
