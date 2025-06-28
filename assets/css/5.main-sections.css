@@ -195,11 +195,11 @@ blockquote {
 /* ======================= */
 @media (max-width: 1550px) {
 
+    /* ====== SECTION FONCTIONNEMENT ====== */
     .fonctionnement {
         padding: 24px 16px;
     }
 
-    /* ====== SECTION FONCTIONNEMENT ====== */
     .fonctionnement-cards {
         flex-direction: column;
         gap: 32px;
@@ -225,7 +225,7 @@ blockquote {
     }
 
     .items {
-        width: 395px;
+        width: var(--wrapper-mobile, 395px);
     }
 
     .item-1,
@@ -237,7 +237,7 @@ blockquote {
     .item-2 img,
     .item-3 img,
     .item-6 img {
-        width: 395px;
+         width: var(--wrapper-mobile, 395px);
     }
 
     /* ======= SECTION TEMOIGNAGES ======== */
