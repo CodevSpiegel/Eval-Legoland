@@ -19,7 +19,7 @@ nav .menus ul {
     list-style-type: none;
 }
 
-nav .menus ul svg {
+nav .menus ul img {
   display: none;
 }
 
@@ -67,7 +67,7 @@ nav .account {
         display: none;
     }
 
-    nav .menus ul svg {
+    nav .menus ul img {
         display: flex;
     }
 }
