@@ -141,20 +141,20 @@
 
 .lego-profil {
     position: relative;
+    height: 94px;
 }
 
 .lego-profil svg {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .photo {
     position: absolute;
-    top: 0;
-    left: 6px;
-    z-index: 1;
-    transform: translateY(28%);
-    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 blockquote {
@@ -251,5 +251,4 @@ blockquote {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 32px;
     }
-
 }
