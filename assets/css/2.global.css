@@ -3,7 +3,7 @@
 /* ======================= */
 .wrapper {
      margin: 0px auto;
-     width: var(--wrapper-desktop, 1441px);
+     width: var(--wrapper-desktop, 1440px);
 }
 
 .showMobile {
