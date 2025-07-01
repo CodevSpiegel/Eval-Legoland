@@ -58,6 +58,7 @@ button {
     font-family: var(--extra-font, "PoetsenOne");
     font-size: 1.125rem; /* 18px */
     font-weight: 400;
+    transition: 0.3s;
 }
 
 .button-primary {

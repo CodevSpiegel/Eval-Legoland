@@ -85,6 +85,7 @@
 .item-1 a,
 .item-5 a {
     color: var(--white, #FFFFFF);
+    transition: 0.3s;
 }
 
 .item-1 a:hover,
@@ -94,6 +95,7 @@
 
 .item-4 a {
     color: var(--black, #000000);
+    transition: 0.3s;
 }
 
 .item-4 a:hover {

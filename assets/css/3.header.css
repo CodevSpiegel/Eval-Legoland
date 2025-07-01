@@ -31,6 +31,7 @@ nav .menus a {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 nav .menus a:hover {
