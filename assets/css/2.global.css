@@ -64,6 +64,7 @@ button {
     color: var(--white, #FFFFFF);
     background-color: var(--black, #000000);
 }
+
 .button-primary:hover {
     color: var(--yellow, #FFEF16);
     border: 2px solid var(--yellow, #FFEF16);

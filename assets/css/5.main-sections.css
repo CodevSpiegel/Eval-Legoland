@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-
 /* ==================================== */
 /* ====== SECTION FONCTIONNEMENT ====== */
 /* ==================================== */
@@ -19,7 +18,6 @@
     padding-bottom: 32px;
     background-color: var(--yellow, #FFEF16);
 }
-
 
 .fonctionnement-cards {
     display: flex;
@@ -34,7 +32,6 @@
     gap: 32px;
     text-align: center;
 }
-
 
 /* ==================================== */
 /* ======== SECTION AVANTAGES ========= */
@@ -89,13 +86,16 @@
 .item-5 a {
     color: var(--white, #FFFFFF);
 }
+
 .item-1 a:hover,
 .item-5 a:hover {
     color: var(--yellow, #FFEF16);
 }
+
 .item-4 a {
     color: var(--black, #000000);
 }
+
 .item-4 a:hover {
     color: var(--red, #E9000B);
 }
@@ -188,7 +188,6 @@ blockquote {
     justify-content: space-between;
     gap: 8px;
 }
-
 
 /* ======================= */
 /* === MEDIA QUERIES ===== */
