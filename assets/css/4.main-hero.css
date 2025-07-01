@@ -39,14 +39,13 @@
     width: 501px;
 }
 
-.lego-bar-top {
+.lego-bar-top,
+.lego-bar-bottom {
     display: flex;
     justify-content: space-between;
 }
 
 .lego-bar-bottom {
-    display: flex;
-    justify-content: space-between;
     transform: rotate(180deg);
 }
 
@@ -81,9 +80,6 @@
 
     .hero-right {
         gap: 16px;
-    }
-
-    .hero-right {
         width: 361px;
     }
 
